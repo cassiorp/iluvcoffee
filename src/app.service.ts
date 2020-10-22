@@ -3,6 +3,6 @@ import { Injectable } from '@nestjs/common';
 @Injectable()
 export class AppService {
   getHello(): string {
-    return 'Hello Nest, mas Spring é melhor!';
+    return 'Hello Nest, mas Spring é melhor, bem melhor!';
   }
 }
